@@ -48,7 +48,7 @@ kunstmaan_voting:
 Use
 ---
 
-* [Documentation](https://github.com/Kunstmaan/KunstmaanVotingBundle/blob/master/Resources/doc/index.md)
+* [Documentation](https://github.com/Kunstmaan/KunstmaanVotingBundle/blob/master/Resources/doc/VotingBundle.md)
 
 ## Symfony 2.2
 
