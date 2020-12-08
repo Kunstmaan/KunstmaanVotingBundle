@@ -8,13 +8,9 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-/**
- * Test Max Number by Ip event listener
- */
 class MaxNumberByIpEventListenerTest extends TestCase
 {
     /**
-     * @param $returnNull
      * @param int $voteNumber
      *
      * @return \Kunstmaan\VotingBundle\Services\RepositoryResolver
@@ -89,10 +85,10 @@ class MaxNumberByIpEventListenerTest extends TestCase
      */
     public function dataTestOnVote()
     {
-        return array(
-            array(2, 2, true),
-            array(2, 1, false),
-            array(2, 3, true),
-        );
+        return [
+            [2, 2, true],
+            [2, 1, false],
+            [2, 3, true],
+        ];
     }
 }
